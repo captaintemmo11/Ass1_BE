@@ -1,0 +1,48 @@
+# Build folders
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.vs/
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+appsettings.Development.json
+
+# Firestore credentials (very important!)
+serviceAccountKey.json
+
+# Publish output
+/publish/
+/dist/
+/build/
+
+# Dependency files
+node_modules/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Render deploy config backups
+render.yaml.backup
